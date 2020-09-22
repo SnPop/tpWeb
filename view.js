@@ -58,26 +58,14 @@ Drawing.prototype.updateShapeList = function(forme){
 	}
 	var Button = document.createElement("button",{ type : "button",class : "btn btn-default" });
 	Button.innerHTML += "<span class=\"glyphicon glyphicon-remove-sign\"></span>";
-
+	//Button.addEventListener("click",myFunction(forme));
 	ShapeList.appendChild(li);
 	
 	li.appendChild(Button);
 	li.innerHTML += Fo;
 };
 
-/*function myFunction(forme){
+function myFunction(forme){
 		console.log("Remove");
 		Drawing.prototype.removeForme(forme);
 }
-*/
-//Button.setAttribute(type, "button");
-//Button.setAttribute(class, "btn btn-default");
-
-//Button.onclick = Drawing.prototype.removeForme(forme);
-//Button.addEventListener('click', myFunction(forme));
-
-//var sp = document.createElement("span",{class : "glyphicon glyphicon-remove-sign" });
-    
-
-//Button.appendChild(sp);
-	
