@@ -1,4 +1,4 @@
-TP Web : Javascript et HTML5
+**TP Web : Javascript et HTML5**
 
 Pour utiliser le projet : ouvrir canvas.html dans un navigateur.
 
