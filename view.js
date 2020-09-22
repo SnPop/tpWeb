@@ -65,11 +65,11 @@ Drawing.prototype.updateShapeList = function(forme){
 	li.innerHTML += Fo;
 };
 
-function myFunction(forme){
+/*function myFunction(forme){
 		console.log("Remove");
 		Drawing.prototype.removeForme(forme);
 }
-
+*/
 //Button.setAttribute(type, "button");
 //Button.setAttribute(class, "btn btn-default");
 
